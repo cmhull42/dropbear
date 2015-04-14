@@ -1,0 +1,7 @@
+[Dropbear]
+
+Dropbear is a ZNC module to mess with your users. Start the module on their account, and pass as an argument the channel for their messages to redirect to. Note that this channel must allow messages from users not in the channel (-n). Users will A) see their messages as having been sent, and B) be unable to see messages forwarded to the channel
+
+Building
+---------------
+Use the znc-buildmod command to compile and place it in your modules directory (~/.znc/modules)
